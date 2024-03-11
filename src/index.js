@@ -1,13 +1,31 @@
+
 import React from 'react';
+
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+/* necessité d'importer le module de react pour faire les routes */
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 
+/* import des 3 pages du projet */
+import Home from './pages/Home/Home'
+import Error404 from './pages/Error404/Error404'
+import FicheLogement from './pages/FicheLogement/FicheLogement'
+import Apropos from './pages/Apropos/Apropos';
+
+
+
+/* creation des routes vers les differentes pages ici */
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/FicheLogement" element={<FicheLogement />} />
+        <Route path="/Apropos" element={<Apropos />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

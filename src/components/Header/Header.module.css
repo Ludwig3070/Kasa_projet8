@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* imports des parametres generaux */
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* reset */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+/* colors */
+* {
+  font-family: Montserrat;
+}
+
+/* les mixins du composant ci-après */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 375px;
+  padding: 0 20px;
+}
+.header_nav {
+  display: flex;
+  -moz-column-gap: 26px;
+       column-gap: 26px;
+}
+.header_nav_link {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 142.6%;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.header_nav_link_underlined {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 142.6%;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-decoration: underline;
+}
+.header_logo {
+  width: 145px;
+}
+
+@media screen and (min-width: 600px) {
+  /* pour les ecrans superieurs a 600px de large */
+}/*# sourceMappingURL=Header.module.css.map */

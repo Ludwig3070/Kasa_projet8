@@ -1,0 +1,45 @@
+/* imports des parametres generaux */
+
+@import "../../sass/setting.scss";
+
+/* les mixins du composant ci-après */
+
+@mixin link{
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 142.6%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 375px;
+    padding: 0 20px;
+    &_nav {
+        display: flex;
+        column-gap: 26px;
+        &_link{
+            @include link();
+            &_underlined{
+                @include link();
+                text-decoration: underline;
+            }
+        }
+        
+    }
+    &_logo{
+        width: 145px;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    /* pour les ecrans superieurs a 600px de large */
+}

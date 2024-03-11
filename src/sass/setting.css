@@ -1,0 +1,8 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* reset */
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+/* colors */
+* {
+  font-family: Montserrat;
+}/*# sourceMappingURL=setting.css.map */
