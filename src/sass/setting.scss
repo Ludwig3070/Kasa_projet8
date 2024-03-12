@@ -8,7 +8,21 @@
 
 /* colors */
 $primaire: #ff6060;
+$backgroundMobile : #f6f6f6;
 
 * {
   font-family: Montserrat;  
+}
+
+body{
+  background-color: rgb(70, 67, 67);
+}
+
+.main{
+  background-color: $backgroundMobile;
+  min-width: 335px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
 }

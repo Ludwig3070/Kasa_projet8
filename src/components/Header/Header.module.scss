@@ -11,6 +11,7 @@
     line-height: 142.6%;
     text-transform: capitalize;
     text-decoration: none;
+    
 }
 
 
@@ -20,8 +21,9 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    min-width: 375px;
-    padding: 0 20px;
+    min-width: 335px;
+    padding:20px;
+   
     &_nav {
         display: flex;
         column-gap: 26px;
