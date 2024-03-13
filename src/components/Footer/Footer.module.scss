@@ -1,0 +1,19 @@
+@import "../../sass/setting.scss";
+
+.footer {
+  background-color: black;
+  height: 209px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_p {
+    display: block;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+  }
+  &_img{
+    margin-bottom: 6px;
+  }
+}

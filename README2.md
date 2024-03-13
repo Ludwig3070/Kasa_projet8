@@ -22,3 +22,13 @@ liens utiles pour cette formation
 
 [async](https://www.youtube.com/watch?v=WNFNEe4bc5A&t=176s)
 
+[gerer les evenements](https://fr.legacy.reactjs.org/docs/handling-events.html)
+
+[les listes](https://fr.legacy.reactjs.org/docs/lists-and-keys.html)
+
+[fetch](https://ichi.pro/fr/comment-recuperer-des-donnees-dans-react-cheatsheet-exemples-231721063507390)
+
+[rotate css](https://weekendprojects.dev/posts/css-rotate-animations-examples/)
+
+[css animations](https://www.w3schools.com/css/css3_animations.asp)
+
