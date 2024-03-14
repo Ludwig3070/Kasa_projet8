@@ -12,6 +12,7 @@
           "height: fit-content"
         ]
       }
-    ]
+    ],
+    "detect-css-reflows/composite": "off"
   }
 }

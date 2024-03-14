@@ -8,12 +8,12 @@ import CollapseBar from '../../components/CollapseBar/CollapseBar';
 import datas from '../../assets/content.json'
 const Apropos = () => {
     const argument = false  //pour Header
-    const content = {"title":datas[0].title,"text":datas[0].text}
+ 
     return (
-        <main className={styles.main}>            
-            <Header argument={argument}/>
-            <Banner argument={coverBanner2}/>
-            <CollapseBar content={content} />
+        <main className={styles.main}>
+            <Header argument={argument} />
+            <Banner argument={coverBanner2} />
+            {datas.map((data) => <CollapseBar content={data} key={data.id} />)}
             <Footer />
         </main>
     );
