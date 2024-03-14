@@ -32,3 +32,6 @@ liens utiles pour cette formation
 
 [css animations](https://www.w3schools.com/css/css3_animations.asp)
 
+[checkboxhack](https://www.youtube.com/watch?v=pzy_QStQaqA)
+
+[collapse](https://www.youtube.com/watch?v=RvpYnUZRquw)

@@ -6,10 +6,12 @@ import Banner from '../../components/Banner/Banner';
 import datas from '../../assets/datas.json'
 import Card from '../../components/Card/Card';
 import Footer from '../../components/Footer/Footer';
+
 const Home = () => {
     const argument = true //pour Header
     const title1 = "Chez vous,"  //pour Banner
     const title2 = "partout et ailleurs" //pour Banner 
+    
 
     return (
 
