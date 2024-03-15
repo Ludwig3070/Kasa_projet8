@@ -39,3 +39,10 @@ liens utiles pour cette formation
 [accordeon](https://www.youtube.com/watch?v=dPLHi7tsoFU)
 
 [accordeon](https://www.youtube.com/watch?v=xR_0DwE6DJw&t=578s)
+
+[routes dynamiques (7mn40~)](https://www.youtube.com/watch?v=hOg-hJDw1NM)
+
+[navigate](https://www.youtube.com/watch?v=JNWSMJshmOQ)
+
+
+
