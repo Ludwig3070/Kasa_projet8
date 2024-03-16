@@ -11,14 +11,14 @@ const Home = () => {
     const argument = true //pour Header
     const title1 = "Chez vous,"  //pour Banner
     const title2 = "partout et ailleurs" //pour Banner 
-    
+    const showTitle = true   //si true affichage du titre de l'image
 
     return (
 
         <main className={styles.main} >
             <Header argument={argument} />
             <Banner argument={coverBannerImg} title1={title1} title2={title2} />
-            <Card datas={datas} />
+            <Card datas={datas} showTitle = {showTitle} />
             <Footer />
         </main>
     );

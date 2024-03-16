@@ -42,7 +42,11 @@ liens utiles pour cette formation
 
 [routes dynamiques (7mn40~)](https://www.youtube.com/watch?v=hOg-hJDw1NM)
 
-[navigate](https://www.youtube.com/watch?v=JNWSMJshmOQ)
+[navigate (obsolete)](https://www.youtube.com/watch?v=JNWSMJshmOQ)
+
+[useNavigate](https://www.youtube.com/watch?v=3h7EAQYJnEI)
+
+[useNavigate](https://reactrouter.com/en/main/hooks/use-navigate)
 
 
 
