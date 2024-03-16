@@ -2,9 +2,10 @@
 /* utilisation d'un fond en degradé derriere la photo,clair au dessus et noir en bas,d'une opacité sur la photo pour assombrir le bes de la photo avec le fond derriere, puis un blend mode sur le titre au dessus de la photo obsurcie en bas pour le faire ressortir  */
 
 @mixin img-style {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
+  aspect-ratio: 16/9;  
   position: relative;
 }
 
