@@ -1,5 +1,14 @@
 @import "../../sass/setting.scss";
 /* utilisation d'un fond en degradé derriere la photo,clair au dessus et noir en bas,d'une opacité sur la photo pour assombrir le bes de la photo avec le fond derriere, puis un blend mode sur le titre au dessus de la photo obsurcie en bas pour le faire ressortir  */
+
+@mixin img-style {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: relative;
+}
+
+
 .cards {
   width: 100%;
   padding: 0 20px;
@@ -36,12 +45,12 @@
       mix-blend-mode:screen; /* //pour faire ressortir le texte   */   
     }
     &_img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover; 
-      position: relative;
-      opacity: 0.85;/* //pour faire ressortir l'arriere plan  */             
-    }
- 
-  }
+      @include img-style;
+      &_withTextIn{
+        @include img-style;
+        opacity: 0.8;/* //pour faire ressortir l'arriere plan  */  
+      }     
+      }
+}
+
 }

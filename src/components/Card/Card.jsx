@@ -6,11 +6,10 @@ import { useNavigate } from 'react-router-dom';
 
 const Card = ({ datas,showTitle }) => {
     
-    const navigate = useNavigate()
-   
+    const navigate = useNavigate()    
     const li = datas.map((data) =>
         <li onClick={(e)=> navigate (`/fichelogement/${e.target.dataset.id}`)} key={data.id} className={styles.cards_card}>
-            <img src={data.cover} alt={data.title} className={styles.cards_card_img} data-id={data.id} />
+            <img src={data.cover} alt={data.title} className={(showTitle&&styles.cards_card_img_withTextIn)||styles.cards_card_img} data-id={data.id} />
             {showTitle&&<h2 className={styles.cards_card_title} data-id={data.id}>{data.title} </h2>}
         </li>);
 
