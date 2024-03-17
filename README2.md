@@ -48,5 +48,8 @@ liens utiles pour cette formation
 
 [useNavigate](https://reactrouter.com/en/main/hooks/use-navigate)
 
+[setinterval,settimeout](https://fr.javascript.info/settimeout-setinterval)
 
+[etoile](https://www.c2script.com/scripts/notation-5-etoiles-en-html-css-star-rating-script-s48.html)
 
+[svg setAttribute](https://stackoverflow.com/questions/21361570/simpler-way-to-set-attributes-with-svg)

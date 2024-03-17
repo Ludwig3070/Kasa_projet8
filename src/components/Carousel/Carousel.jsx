@@ -13,13 +13,13 @@ const Carousel = ({ pictures }) => {
     /* chaque fois que picturesNumber   change le compteur est remis à 0 par useEffect grace a clearTimeout*/
 
     useEffect(()=>{
-        const timeout =  setTimeout(() => {
+        const interval =  setInterval(() => {
             pictureNumber < (pictures.length - 1) ? setPictureNumber(pictureNumber + 1) : setPictureNumber(pictureNumber = 0)
     
             data = { "cover": pictures[pictureNumber] }
         }, "20000")
     
-        return()=>clearTimeout(timeout)
+        return()=>clearInterval(interval)
         
 
     },[pictureNumber])
@@ -42,8 +42,8 @@ const Carousel = ({ pictures }) => {
             <div className={styles.carousel_img}>
                 <Card datas={data} />
             </div>
-            <div onClick={handleLeftArrow} className={isMultiplePictures && styles.carousel_leftArrow || ""}></div>
-            <div onClick={handleRightArrow} className={isMultiplePictures && styles.carousel_rightArrow || ""}></div>
+            <div onClick={handleLeftArrow} className={isMultiplePictures && (styles.carousel_leftArrow || "")}></div>
+            <div onClick={handleRightArrow} className={isMultiplePictures && (styles.carousel_rightArrow || "")}></div>
             {console.log(pictureNumber)}
         </div>
     );

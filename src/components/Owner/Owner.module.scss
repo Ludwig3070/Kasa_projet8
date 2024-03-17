@@ -1,0 +1,24 @@
+/* imports des parametres generaux */
+
+@import "../../sass/setting.scss";
+
+.owner {
+  display: flex;
+  width: 136px;
+  height: 33px;
+  justify-content: flex-end;
+  column-gap: 5px;
+ 
+  &_name {
+    display: flex;
+    width: 45px;
+    justify-content: flex-end;
+    color: $primaire;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 142.6%;
+  }
+  &_picture {
+    border-radius: 16px;
+  }
+}

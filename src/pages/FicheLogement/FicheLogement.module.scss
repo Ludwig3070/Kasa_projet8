@@ -1,1 +1,34 @@
 @import "../../sass/setting.scss";
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  padding: 0 20px;
+
+  &_h2 {
+    color: $primaire;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 142.6%;
+  }
+  &_h3 {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 142, 6%;
+  }
+  &_infos {
+    display: flex;
+    padding: 0 20px;
+    margin: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+    &_score {
+      display: inline-block;
+      height: 36px;
+      width: auto;
+    }
+  }
+}

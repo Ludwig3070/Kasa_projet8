@@ -1,5 +1,4 @@
 import styles from "./CollapseBar.module.scss"
-import img from "../../assets/arrow_back_ios-24px 2.svg"
 import React from 'react';
 
 const CollapseBar = ({ content }) => {

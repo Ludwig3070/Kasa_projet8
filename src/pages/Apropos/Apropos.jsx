@@ -7,11 +7,11 @@ import Footer from '../../components/Footer/Footer';
 import CollapseBar from '../../components/CollapseBar/CollapseBar';
 import datas from '../../assets/content.json'
 const Apropos = () => {
-    const argument = false  //pour Header
+    const apropos = true  //pour Header
  
     return (
         <main className={styles.main}>
-            <Header argument={argument} />
+            <Header apropos={apropos} />
             <Banner argument={coverBanner2} />
             {datas.map((data) => <CollapseBar content={data} key={data.id} />)}
             <Footer />
