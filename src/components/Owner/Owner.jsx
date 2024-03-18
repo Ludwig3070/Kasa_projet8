@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../Owner/Owner.module.scss'
 const Owner = ({ host }) => {
-    console.log(host.name)
+    
 
     return (
         <div className={styles.owner}>

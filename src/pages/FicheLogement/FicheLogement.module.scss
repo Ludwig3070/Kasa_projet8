@@ -12,6 +12,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 142.6%;
+    margin-bottom: 10px;
   }
   &_h3 {
     color: black;
@@ -22,7 +23,8 @@
   &_infos {
     display: flex;
     padding: 0 20px;
-    margin: 24px 0;
+    margin-top: 16px;
+    margin-bottom: 5px;
     justify-content: space-between;
     align-items: center;
     &_score {
@@ -30,5 +32,13 @@
       height: 36px;
       width: auto;
     }
+  }
+  &_tags {
+    display: flex;
+    padding: 0 20px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-top: 7px;
   }
 }

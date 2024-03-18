@@ -53,3 +53,9 @@ liens utiles pour cette formation
 [etoile](https://www.c2script.com/scripts/notation-5-etoiles-en-html-css-star-rating-script-s48.html)
 
 [svg setAttribute](https://stackoverflow.com/questions/21361570/simpler-way-to-set-attributes-with-svg)
+
+[cesure en css](https://openweb.eu.org/articles/la-gestion-de-la-cesure-en-css)
+
+[hyphens en css](https://developer.mozilla.org/fr/docs/Web/CSS/hyphens)
+
+

@@ -3,12 +3,18 @@ import React from 'react';
 
 const CollapseBar = ({ content }) => {
 
+    const textArray = [...content.text]
+    
+    
+     
+
     return (
         <div className={styles.collapse} >
             <input type="checkbox" name="collapse"  id={content.title} className={styles.collapse_input}  />
-            <label htmlFor={content.title} className={styles.collapse_label}>{content.title}</label>
+            <label htmlFor={content.title}  className={styles.collapse_label}>{content.title}</label>
             <div className={styles.collapse_content} >
-                <p className={styles.collapse_content_p}>{content.text}</p>
+                {/* <p className={styles.collapse_content_p}>{content.text}</p> */}
+                {textArray.map((text,index)=><p key={index} className={styles.collapse_content_p}>{text}</p>)}
             </div>
         </div>
     );

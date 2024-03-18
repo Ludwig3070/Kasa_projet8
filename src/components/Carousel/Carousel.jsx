@@ -17,7 +17,7 @@ const Carousel = ({ pictures }) => {
             pictureNumber < (pictures.length - 1) ? setPictureNumber(pictureNumber + 1) : setPictureNumber(pictureNumber = 0)
     
             data = { "cover": pictures[pictureNumber] }
-        }, "20000")
+        }, "6000")
     
         return()=>clearInterval(interval)
         
@@ -44,7 +44,7 @@ const Carousel = ({ pictures }) => {
             </div>
             <div onClick={handleLeftArrow} className={isMultiplePictures && (styles.carousel_leftArrow || "")}></div>
             <div onClick={handleRightArrow} className={isMultiplePictures && (styles.carousel_rightArrow || "")}></div>
-            {console.log(pictureNumber)}
+            {/* console.log(pictureNumber) */}
         </div>
     );
 };

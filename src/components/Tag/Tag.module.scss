@@ -1,0 +1,21 @@
+/* imports des parametres generaux */
+
+@import "../../sass/setting.scss";
+
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 84px;
+    height: 18px;
+    background-color: $primaire;
+    border-radius: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 142,6%;
+    text-align: center;
+    padding: 0 5px;
+    
+
+}
