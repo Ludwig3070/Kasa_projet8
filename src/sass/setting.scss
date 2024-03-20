@@ -24,8 +24,8 @@ body{
 
 .main{
   background-color: $backgroundMobile;
-  min-width: 335px;
-  max-width: 400px; 
+  min-width: 335px;  
+  max-width: 767px; 
   margin: auto; 
   display: flex;
   flex-direction: column;

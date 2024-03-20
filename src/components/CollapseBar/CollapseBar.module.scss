@@ -22,8 +22,9 @@
       -moz-hyphens: auto;
       -ms-hyphens: auto;
       -o-hyphens: auto;
-      hyphens: auto; */
-     
+      hyphens: auto; */ 
+      font-size: clamp(13px,3vw,23px);//responsive mobile jusqu'a 767px
+
     } 
   }
   &_input:checked ~ .collapse_content {
@@ -31,21 +32,20 @@
     height: 100%;
     animation: show 0.2s forwards ease;
   }
-  &_input:checked ~ .collapse_content p {
+ /*  &_input:checked ~ .collapse_content p {
     
    
-  }
+  } */
   &_input:checked ~ .collapse_label::after {
     transform: rotate(-225deg);
   }
   &_label {
     display: block;
-    padding: 5px;
-    height: 30px;
+    padding: 6px;
     background-color: $primaire;
     width: 100%;
     color: white;
-    font-size: 13px;
+    font-size: clamp(13px,3vw,23px);//responsive mobile jusqu'a 767px
     font-weight: 700;
     line-height: 142.6%;
     cursor: pointer;
@@ -60,12 +60,15 @@
   &_label::after {
     content: "";
     position: absolute;
-    right: 10px;
-    top: 9px;
+    right: 10px;    
+    top: 28%;
+    transform: translateY(-28%);
     width: 12px;
+    width: clamp(12px,3vw,22px);
     height: 12px;
-    border-top: solid 2px rgb(255, 255, 255);
-    border-right: solid 2px rgb(255, 255, 255);
+    height: clamp(12px,3vw,22px);
+    border-top: solid clamp(2px,3vw,4px) rgb(255, 255, 255);
+    border-right: solid clamp(2px,3vw,4px) rgb(255, 255, 255);
     transform: rotate(-45deg);
     transition: all 0.3s;
   }

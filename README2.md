@@ -58,4 +58,19 @@ liens utiles pour cette formation
 
 [hyphens en css](https://developer.mozilla.org/fr/docs/Web/CSS/hyphens)
 
+[line-height](https://developer.mozilla.org/fr/docs/Web/CSS/line-height)
 
+
+[text responsive](https://www.youtube.com/watch?v=nwrn0TEJH20)
+
+[text responsive](https://www.youtube.com/watch?v=T8w0mZxc2E0)
+
+[clamp css](https://developer.mozilla.org/fr/docs/Web/CSS/clamp)
+
+[responsive](https://www.youtube.com/watch?v=WAiJ70FVEMY)
+
+[responsive](https://www.youtube.com/watch?v=mjRHg-rs1Ps)
+
+[fit-content](https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content)
+
+[fit-content](http://stylescss.free.fr/v2-values/fit-content.php)

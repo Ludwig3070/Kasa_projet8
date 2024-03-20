@@ -3,7 +3,8 @@
 
 @mixin img-style {
   width: auto;
-  height: 100%;
+  height: 225px;  
+  height: clamp(225px,60vw,440px);//pour faire une image responsive sur mobile
   object-fit: cover;
   aspect-ratio: 16/9;  
   position: relative;
@@ -20,8 +21,7 @@
   position: relative;
   &_card {
     display: flex;
-    align-items: flex-end;
-    height: 255px;
+    align-items: flex-end;    
     background-color:black;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -36,8 +36,8 @@
   cursor: pointer;
     overflow: hidden;    
     &_title {
-      color: white;
-      font-size: 18px;
+      color: white;      
+      font-size: clamp(18px,4.8vw,30px); //uniquement valable pour mobile,a changer pour desk
       font-weight: 700;
       line-height: 142.6%;
       padding: 15px;
