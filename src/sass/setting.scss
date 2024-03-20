@@ -19,7 +19,7 @@ $gray : rgba(236, 226, 226, 0.45);
 }
 
 body{
-  background-color: rgb(70, 67, 67);
+  background-color: rgb(255, 255, 255);
 }
 
 .main{
@@ -29,5 +29,18 @@ body{
   margin: auto; 
   display: flex;
   flex-direction: column;
+
+}
+
+
+@media screen and (min-width:760px) {
+  /* pour les ecrans superieurs a 760px de large */
+
+.main{
+  
+  min-width: 767px;  
+  max-width: 1440px;
+  background-color: white; 
+}
 
 }

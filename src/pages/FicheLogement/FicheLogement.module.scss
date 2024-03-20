@@ -42,3 +42,54 @@
     margin-top: 7px;
   }
 }
+
+@media all and (min-width:760px) {
+  /* pour les ecrans superieurs a 760px de large */
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    padding: 0 45px;//
+  
+    &_h2 {
+      color: $primaire;
+      font-size: 36px;//
+      font-weight: 500;
+      line-height: 142.6%;
+      margin-bottom: 10px;
+    }
+    &_h3 {
+      color: black;
+      font-size: 18px;//
+      font-weight: 500;
+      line-height: 142, 6%;
+    }
+    &_infos {
+      display: flex;
+      padding: 0 45px;//
+      margin-top: 16px;
+      margin-bottom: 5px;
+      justify-content: space-between;
+      align-items: center;
+      &_score {
+        display: inline-block;
+        height: 36px;
+        width: auto;
+      }
+    }
+    &_tags {
+      display: flex;
+      padding: 0 45px;
+      column-gap: 10px;
+      flex-wrap: wrap;
+      row-gap: 10px;
+      margin-top: 7px;
+    }
+  }
+  
+
+
+
+}

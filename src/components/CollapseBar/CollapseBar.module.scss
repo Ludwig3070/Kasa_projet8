@@ -100,3 +100,12 @@
     padding-top: 10px;
   }
 }
+
+@media all and (min-width:760px) {
+  /* pour les ecrans superieurs a 760px de large */
+
+.collapse{
+  margin: 10px 45px;
+}
+
+}

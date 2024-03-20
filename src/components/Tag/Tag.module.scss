@@ -2,20 +2,26 @@
 
 @import "../../sass/setting.scss";
 
-.tag{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 84px;
-    height: 18px;
-    background-color: $primaire;
-    border-radius: 5px;
-    color: white;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 142,6%;
-    text-align: center;
-    padding: 0 5px;
-    
-
+.tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 84px;
+  height: 18px;
+  background-color: $primaire;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 142, 6%;
+  text-align: center;
+  padding: 0 5px;
+}
+@media all and (min-width: 760px) {
+  /* pour les ecrans superieurs a 760px de large */
+  .tag {
+    font-size: 14px;
+    min-width: 115px;
+    height: 25px;
+  }
 }

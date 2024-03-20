@@ -2,3 +2,24 @@
 
 @import "../../sass/setting.scss";
 
+@media all and (min-width:760px) {
+    /* pour les ecrans superieurs a 760px de large */
+    .container{
+        background-color: rgb(227, 220, 220);//a modifier
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;//
+        justify-content:center;
+        margin: auto;
+        gap: 50px;      
+        width: auto;
+        /* padding: 56px auto 43px auto; */
+        padding-top: 56px;
+        padding-bottom: 43px;
+        margin: 50px 45px;
+        border-radius: 25px;
+        
+    }
+  
+
+  }

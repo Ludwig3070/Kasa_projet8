@@ -27,7 +27,7 @@ const FicheLogement = () => {
    
      useEffect(() => {
         if (logement.length === 0) {
-            navigate("*");
+            navigate("*");//envoi vers la page Error404 si l'id est faux 
         }
     }, [logement, navigate]);
 

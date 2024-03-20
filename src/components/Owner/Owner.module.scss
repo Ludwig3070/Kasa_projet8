@@ -22,3 +22,34 @@
     border-radius: 16px;
   }
 }
+@media all and (min-width:760px) {
+  /* pour les ecrans superieurs a 760px de large */
+
+  .owner {
+    display: flex;
+    width: 136px;
+    height: 33px;
+    justify-content: flex-end;
+    column-gap: 5px;
+    margin-bottom: 30px;
+   
+    &_name {
+      display: flex;
+      width: 45px;
+      justify-content: flex-end;
+      color: $primaire;
+      font-size: 18px;//
+      font-weight: 500;
+      line-height: 142.6%;
+    }
+    &_picture {
+      border-radius: 32px;
+      width: 64px;
+      height: 64px;
+    }
+  }
+
+
+
+}
+
