@@ -3,3 +3,12 @@
     height: 14px;
   }
   
+  @media screen and (min-width: 760px) {
+    /* pour les ecrans superieurs a 760px de large */
+
+    .star {
+      width: 28px;
+      height: 28px;
+    }
+    
+  }  

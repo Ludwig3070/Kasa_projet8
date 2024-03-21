@@ -4,19 +4,18 @@
 
 .owner {
   display: flex;
+  margin-right: 3px;
   width: 136px;
   height: 33px;
   justify-content: flex-end;
   column-gap: 5px;
  
   &_name {
-    display: flex;
-    width: 45px;
-    justify-content: flex-end;
+    display: flex;    
+    text-align: right;
     color: $primaire;
     font-size: 12px;
-    font-weight: 500;
-    line-height: 142.6%;
+    font-weight: 500;    
   }
   &_picture {
     border-radius: 16px;
@@ -26,21 +25,12 @@
   /* pour les ecrans superieurs a 760px de large */
 
   .owner {
-    display: flex;
-    width: 136px;
-    height: 33px;
-    justify-content: flex-end;
-    column-gap: 5px;
-    margin-bottom: 30px;
-   
-    &_name {
-      display: flex;
-      width: 45px;
-      justify-content: flex-end;
-      color: $primaire;
-      font-size: 18px;//
-      font-weight: 500;
-      line-height: 142.6%;
+    width: 167px;
+    height: 64px;   
+    column-gap: 10px;
+    margin-bottom: 30px;   
+    &_name {      
+      font-size: 18px;   
     }
     &_picture {
       border-radius: 32px;
@@ -48,8 +38,5 @@
       height: 64px;
     }
   }
-
-
-
 }
 

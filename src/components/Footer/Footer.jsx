@@ -5,13 +5,13 @@ import styles from './Footer.module.scss'
 const Footer = () => {
     return (
         <div className={styles.footer}>
-            <div>
+            <div className={styles.footer_container}>
                 <img src={Logo} alt="logo de Kasa" className={styles.footer_img} />
-                <p className={styles.footer_p}>© 2020 Kasa.All</p>
-                <p className={styles.footer_p}>rights reserved</p>
+                <div className={styles.footer_p_container}>
+                    <p className={styles.footer_p}>© 2020 Kasa. All rights reserved</p>
+                </div>
             </div>
         </div>
     );
 };
-
 export default Footer;

@@ -5,7 +5,7 @@
 @media all and (min-width:760px) {
     /* pour les ecrans superieurs a 760px de large */
     .container{
-        background-color: rgb(227, 220, 220);//a modifier
+        background-color: $backgroundMobile;//a modifier
         display: flex;
         flex-wrap: wrap;
         flex-grow: 1;//

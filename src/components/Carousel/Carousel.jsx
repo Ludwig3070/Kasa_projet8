@@ -10,7 +10,7 @@ const Carousel = ({ pictures }) => {
     let data = { "cover": pictures[pictureNumber] }
 
     /* defilement automatique */
-    /* chaque fois que picturesNumber   change le compteur est remis à 0 par useEffect grace a clearTimeout*/
+    /* chaque fois que picturesNumber change le compteur est remis à 0 par useEffect grace a clearTimeout*/
 
     useEffect(()=>{
         const interval =  setInterval(() => {
@@ -18,13 +18,14 @@ const Carousel = ({ pictures }) => {
     
             data = { "cover": pictures[pictureNumber] }
         }, "6000")
+        
     
         return()=>clearInterval(interval)
         
 
     },[pictureNumber])
 
-
+    
 
 
     /* gestion des clicks sur les chevrons */
@@ -36,15 +37,16 @@ const Carousel = ({ pictures }) => {
         pictureNumber < (pictures.length - 1) ? setPictureNumber(pictureNumber = pictureNumber + 1) : setPictureNumber(pictureNumber = 0)
 
     }
-
+    
     return (
         <div className={styles.carousel}>
-            <div className={styles.carousel_img}>
+            <div className={styles.carousel_card_container}>
                 <Card datas={data} />
             </div>
             <div onClick={handleLeftArrow} className={isMultiplePictures && (styles.carousel_leftArrow || "")}></div>
             <div onClick={handleRightArrow} className={isMultiplePictures && (styles.carousel_rightArrow || "")}></div>
             {/* console.log(pictureNumber) */}
+            <div className={styles.carousel_counter}> {pictureNumber+1}/{pictures.length}</div>
         </div>
     );
 };

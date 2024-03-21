@@ -2,3 +2,18 @@
 
 @import "../../sass/setting.scss";
 
+.collapse_content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+@media all and (min-width: 760px) {
+    /* pour les ecrans superieurs a 760px de large */
+
+    .collapse_content{        
+        padding: 38px 208px;
+    }
+    
+}

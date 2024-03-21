@@ -8,39 +8,33 @@
 
 /* colors */
 $primaire: #ff6060;
-$backgroundMobile : #f6f6f6;
-$gray : rgba(236, 226, 226, 0.45);
+$backgroundMobile: #f6f6f6;
+$gray: rgba(236, 226, 226, 0.45);
 
 /* text */
 
-
 * {
-  font-family: Montserrat;  
+  font-family: Montserrat;
+  line-height: 142.6%;  
 }
 
-body{
-  background-color: rgb(255, 255, 255);
+body {
+  background-color: rgb(73, 71, 71);
 }
 
-.main{
+.main {
   background-color: $backgroundMobile;
-  min-width: 335px;  
-  max-width: 767px; 
-  margin: auto; 
+  min-width: 335px;
+  max-width: 767px;
+  margin: auto;
   display: flex;
   flex-direction: column;
-
 }
-
-
-@media screen and (min-width:760px) {
+@media screen and (min-width: 760px) {
   /* pour les ecrans superieurs a 760px de large */
-
-.main{
-  
-  min-width: 767px;  
-  max-width: 1440px;
-  background-color: white; 
-}
-
+  .main {
+    min-width: 767px;
+    max-width: 1330px;
+    background-color: rgb(255, 255, 255);
+  }
 }
