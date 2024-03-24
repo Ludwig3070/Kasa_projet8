@@ -74,3 +74,10 @@ liens utiles pour cette formation
 [fit-content](https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content)
 
 [fit-content](http://stylescss.free.fr/v2-values/fit-content.php)
+
+[onLoad JS,html](https://www.w3schools.com/jsref/event_onload.asp)
+
+[onError JS,html](https://www.w3schools.com/jsref/event_onerror.asp)
+
+[onLoad...JS](https://fr.javascript.info/onload-onerror)
+

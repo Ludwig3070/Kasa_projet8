@@ -5,7 +5,7 @@
   width: auto;
   height: clamp(
     225px,
-    60vw,
+    60%,
     440px
   ); //pour faire une image responsive sur mobile
   object-fit: cover;
@@ -15,7 +15,7 @@
 
 .cards {
   padding: 0 20px;
-  width: 100%;  
+  width: auto;  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,6 +67,8 @@
   @mixin img-style {
     height: 340px;
     aspect-ratio: 1;
+    
+    
   }
 
   .cards {
