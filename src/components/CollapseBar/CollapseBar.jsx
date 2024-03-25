@@ -23,8 +23,8 @@ const CollapseBar = ({ content }) => {
         if (page.pathname === '/Apropos') {
             setStyle(stylesApropos);
         }
-        console.log("pathname=", pathname)
-        console.log("style=", style)
+        /* console.log("pathname=", pathname)
+        console.log("style=", style) */
     }, [page]);
         
 
