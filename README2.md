@@ -81,3 +81,12 @@ liens utiles pour cette formation
 
 [onLoad...JS](https://fr.javascript.info/onload-onerror)
 
+[resize event](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event)
+
+
+[obtenir la largeur d'une fenetre](https://developer.mozilla.org/fr/docs/Web/API/Window/innerWidth)
+
+
+[chainage optionnel](https://www.youtube.com/watch?v=om3AbityVgY&list=PLHPKV-28fx6hOWlNpSwm7TZQalrtHyqPx&index=8)
+
+[chainage optionnel JS](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Operators/Optional_chaining)

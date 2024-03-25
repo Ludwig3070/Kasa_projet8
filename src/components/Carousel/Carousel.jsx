@@ -51,8 +51,8 @@ const Carousel = ({ pictures }) => {
                 <Card datas={data} />
             </div>
             {/* affiche des chevrons ou non selon l'etat de isMultiplePictures */}
-            <div onClick={handleLeftArrow} className={isMultiplePictures && (styles.carousel_leftArrow || "")}></div>
-            <div onClick={handleRightArrow} className={isMultiplePictures && (styles.carousel_rightArrow || "")}></div>
+            <div onClick={handleLeftArrow} className={(isMultiplePictures && styles.carousel_leftArrow) || "undefined"}></div>
+            <div onClick={handleRightArrow} className={(isMultiplePictures && styles.carousel_rightArrow) || "undefined"}></div>
             {/* Affiche le numéro de l'image actuellement affichée */}
             <div className={styles.carousel_counter}> {pictureNumber+1}/{pictures.length}</div>
         </div>
