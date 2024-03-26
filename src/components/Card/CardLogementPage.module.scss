@@ -12,10 +12,18 @@
 }
 
 .cards {
+  opacity: 0;
   width: auto; //  
   display: flex;  
   position: relative;
-  &_card {    
+  &_fadeIn {
+    animation: fadeIn 0.8s 10ms  ease-out forwards;
+  }
+  &_fadeOut{
+    opacity:0;
+  }
+  &_card { 
+    /* opacity: 0;  */    
     width: 100%;
     display: flex;    
     border-radius: 10px;
@@ -39,3 +47,21 @@
     
   }
 }
+
+/* pour animer les card à leur apparition */
+
+
+
+@keyframes fadeIn {
+  
+  20% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
