@@ -9,8 +9,9 @@ const Carousel = ({ pictures }) => {
     const isMultiplePictures = pictures.length > 1;/* si il n y a qu'une image ou zero alors isMultilePictures=false, permet d'eviter d' afficher les chevrons si il n ya qu une seule image du logement */
     const [data, setData] = useState({ "cover": pictures[pictureNumber] });//data contient l'objet {"cover":"url de l'image correspondant à pictureNumber"}
 
-    /* defilement automatique */
-    /* chaque fois que picturesNumber change le compteur est remis à 0 par useEffect grace a clearInterval*/
+
+
+    /* useEffect1 gere le defilement automatique ,chaque fois que picturesNumber change le compteur est remis à 0 par useEffect grace a clearInterval*/
 
     useEffect(()=>{
         const interval =  setInterval(() => {
@@ -23,6 +24,10 @@ const Carousel = ({ pictures }) => {
         
 
     },[pictureNumber])/* des que picturNumber est modifié, c.a.d ts les 6 secondes ou lorsque l'on clique sur une fleche, le useEffect se declenche,l'image est raffraichit et clearInterval remet l'horloge à zero */    
+
+
+
+     /* useEffect2 gere l'affichage automatique ,chaque fois que picturesNumber change le rerender envoi un Card avec un nouveau data voir ligne 56*/
 
     useEffect(()=>{
         setData ({ "cover": pictures[pictureNumber] })

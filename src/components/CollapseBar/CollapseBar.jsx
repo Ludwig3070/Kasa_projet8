@@ -12,6 +12,8 @@ const CollapseBar = ({ content }) => {
     const [pathname, setPathname] = useState(null);
     const [style, setStyle] = useState(stylesLogement);
 
+
+    /* useEffect permet de recuperer le chemin et d'appliquer un style selon la provenance */
     useEffect(() => {
         /* recupere le path soit "/" soit "/fichelogement/${id}" */
         if (page) {
@@ -22,6 +24,7 @@ const CollapseBar = ({ content }) => {
         /*Nous utilisons setStyle pour mettre à jour le style en fonction du chemin de l'URL.  */
         if (page.pathname === '/Apropos') {
             setStyle(stylesApropos);
+            console.log(style)
         }
         /* console.log("pathname=", pathname)
         console.log("style=", style) */

@@ -8,7 +8,7 @@ import styles from "./Header.module.scss"
 
 const Header = ({accueil,apropos}) => {
     /* pour /:si agument=true =>underlined(styles.header_nav_link_underlined) sinon(||) styles.header_nav_link  */
-    /* pour /Apropos:si !agument=true =>underlined(styles.header_nav_link_underlined) sinon(||) styles.header_nav_link  */
+   
     return (
         <div className={styles.header}>
             <img src={Logo} alt="Logo de Kasa" className={styles.header_logo}/>
